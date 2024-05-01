@@ -40,8 +40,7 @@ app.name.pack(expand=True, fill="both")
 select = Spinbox(master=entryFrame, from_=8, to=32, state="normal")
 select.grid(row=0, column=1, padx=10, pady=10, sticky="we" )
 select.config(width=5, font=font1)
-
-     
+    
 # Function ---> Generate password upon selection
 def gen_pass(length, add_uppercase, add_numbers, add_extra_chars):
     
@@ -91,15 +90,13 @@ def update_password_entry(event=None):
     
     # Deactivate
     PAsswd.configure(state="disabled")
-    
 
 # Function ---> Clear entry
 def clear():
     PAsswd.configure(state="normal")
     PAsswd.delete(0, "end")
     PAsswd.configure(state="disabled")
-    
-    
+  
 # FUnction ---> Messagebox
 def success():
     CTkMessagebox(title="Success", message="Password copied! Ready to use.", icon="check", width=300, height=100)
@@ -119,11 +116,9 @@ def copy():
         success()
     else:
         error()
-        
-        
-        
-    
 
+
+# ---OTHER WIDGETS---
 # entryFrame Labels
 label_1 = customtkinter.CTkLabel(master=entryFrame, text="Password Length :", font=font3, padx=5, pady=5, anchor="w")
 label_1.grid(row=0, column=0, sticky="wens")
@@ -155,5 +150,5 @@ Btn_3.grid(row=2, column=1, padx=10, pady=5, sticky="we")
 
 
 
-# Start app, keep it UP & RUNNING
-app.mainloop()
+# Run App
+app.mainloop() 
