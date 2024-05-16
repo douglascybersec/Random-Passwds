@@ -12,7 +12,7 @@ customtkinter.set_default_color_theme("GreyLight.json")
  
 # App settings
 app = customtkinter.CTk()
-app.title("Random PAssW0rd Generator")
+app.title("Random Passwds")
 app.geometry(f"{420}x{400}")
 app.resizable(False, False)
 
@@ -33,7 +33,7 @@ genFrame = customtkinter.CTkFrame(app)
 genFrame.pack(side="bottom", expand=True, fill="both", padx=5, pady=5)
 
 # AppName(label)
-app.name = customtkinter.CTkLabel( master=nameFrame, text="Random PAssW0rd Generator", font=font2, wraplength=400, anchor="center")
+app.name = customtkinter.CTkLabel( master=nameFrame, text="Random Passwds", font=font2, wraplength=400, anchor="center")
 app.name.pack(expand=True, fill="both")
 
 # Spinbox
