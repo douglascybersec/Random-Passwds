@@ -13,9 +13,6 @@
 - [x] Python 3.x
 - [x] Tkinter/Customtkinter
 
-## Screenshots
-In a few...
-
 ## Installation:
 1. Clone the repository:
 ```
