@@ -1,6 +1,6 @@
 # **Random Password Generator**
 
-![image]()
+![image](https://github.com/douglascybersec/Random-Passwds/blob/3183078af7b4aba9de4f337c4e95dd820b82e76d/image.PNG)
 > This is a password generator based on the Python. With a user-friendly graphical interface (GUI). The application allows users create random passwords whose length and complexity can be adjusted, such as uppercase letters, numbers and symbols included.
 
 ## Features
